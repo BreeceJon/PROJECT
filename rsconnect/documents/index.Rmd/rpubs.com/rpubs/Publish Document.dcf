@@ -1,0 +1,7 @@
+name: Publish Document
+account: rpubs
+server: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/192026/3f1e0990487443878e8de5eaa7faae5b
+bundleId: https://api.rpubs.com/api/v1/document/192026/3f1e0990487443878e8de5eaa7faae5b
+url: http://rpubs.com/breecejon/192026
+when: 1466906175.83106
