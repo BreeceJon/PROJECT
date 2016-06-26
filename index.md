@@ -64,8 +64,10 @@ Outputs include three graphs, such as Plot 1:
 
 
 ```
-## Error in eval(expr, envir, enclos): could not find function "ggplot"
+## Warning: package 'ggplot2' was built under R version 3.3.1
 ```
+
+![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png)
 
 ---
 
@@ -73,7 +75,4 @@ Outputs include three graphs, such as Plot 1:
 
 * Thank you for your time.  
 * Now check out the app: https://breecejon.shinyapps.io/Basic_Car_Research_Application/
-
-```
-## Error in eval(expr, envir, enclos): could not find function "ggplot"
-```
+![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png)

@@ -45,6 +45,7 @@ nrow(mtcars)
 Outputs include three graphs, such as Plot 1:
 
 ```{r eval=TRUE, echo=FALSE}
+library(ggplot2)
 ggplot(mtcars, aes(mpg,hp)) + geom_label(label=rownames(mtcars)) + geom_smooth(method = "lm", se = FALSE, color = "blue", formula = y ~ x)
 ```
 
@@ -55,5 +56,6 @@ ggplot(mtcars, aes(mpg,hp)) + geom_label(label=rownames(mtcars)) + geom_smooth(m
 * Thank you for your time.  
 * Now check out the app: https://breecejon.shinyapps.io/Basic_Car_Research_Application/
 ```{r eval=TRUE, echo=FALSE}
+library(ggplot2)
 ggplot(mtcars, aes(mpg)) + geom_histogram(bins = 10)
 ```
